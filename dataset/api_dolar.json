@@ -1,0 +1,15 @@
+{
+	"name": "api_dolar",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "api_dolar",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "entrada"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}

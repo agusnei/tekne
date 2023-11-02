@@ -1,0 +1,27 @@
+{
+	"name": "dolar",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "storagecgc",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "salida"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "dolar/dolar.csv",
+				"folderPath": "destino",
+				"fileSystem": "cgc"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
