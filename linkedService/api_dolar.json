@@ -1,0 +1,12 @@
+{
+	"name": "api_dolar",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://dolarapi.com/v1/dolares/blue",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
