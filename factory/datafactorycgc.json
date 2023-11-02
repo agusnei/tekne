@@ -1,0 +1,9 @@
+{
+	"name": "datafactorycgc",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "467298da-13cf-479a-82d9-b32c5c576c6f",
+		"tenantId": "28d68831-95cb-4613-968c-5c021e55831b"
+	}
+}
