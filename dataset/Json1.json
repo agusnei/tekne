@@ -1,0 +1,23 @@
+{
+	"name": "Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "storagecgc",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "salida"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "movies.json",
+				"folderPath": "destino",
+				"fileSystem": "cgc"
+			}
+		},
+		"schema": {}
+	}
+}
